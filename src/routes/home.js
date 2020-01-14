@@ -10,4 +10,8 @@ HomeRouter.get("/", (req, res) => {
   }
 });
 
+HomeRouter.get("/test", (req, res) => {
+  res.json({ potato: "sdfdfnsfjn" });
+});
+
 export default HomeRouter;

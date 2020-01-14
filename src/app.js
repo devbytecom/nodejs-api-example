@@ -3,7 +3,7 @@ import HomeRouter from "./routes/home";
 
 const App = express();
 
-App.get("/", HomeRouter);
+App.use("/", HomeRouter);
 
 App.listen(1337);
 console.log("listening on port 1337....");
